@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "host": "loopring-relay.cfsiqsz1ae0c.ap-northeast-1.rds.amazonaws.com",
+        "port": 3306,
+        "database": "LoopringCMS",
+        "username": "cms",
+        "password": "F[-PXE]ix<"
+      },
+      "options": {
+        "ssl": false
+      }
+    }
+  }
+}
